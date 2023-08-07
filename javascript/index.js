@@ -51,3 +51,10 @@ function test(...args){
     console.log(this.num,args)
 }
 test.apply({num:100},[1,2,3])
+
+// bind
+function test(arggs){
+    console.log(this.number,arggs)
+}
+let bindedfn=test.bind({number:99},"arggs");
+bindedfn()
