@@ -46,11 +46,7 @@ function test(arg1,arg2){
 }
 test.call({num:100},10,20)
 
-// apply
-function test(...args){
-    console.log(this.num,args)
-}
-test.apply({num:100},[1,2,3])
+
 
 // bind
 function test(arggs){
