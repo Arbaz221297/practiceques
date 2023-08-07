@@ -19,15 +19,14 @@ const double=arr.map((ele)=>{
 })
 console.log(double)
 
-// reduce
-let arr2=[1,2,3,4,5,6];
-const sum=arr.reduce((acc,curr)=>{
-    return acc+curr
-})
-console.log(sum)
+
 
 // filter
-
+let arr3=[1,2,3,4,5,6];
+const filtarr=arr.filter((ele)=>{
+    return ele<3
+})
+console.log(filtarr)
 
 // foreach
 
