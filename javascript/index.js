@@ -1,13 +1,6 @@
 // closures
 
-function init(){
-    var str ="Arbaz";
-    function displayName(){
-        console.log(str)
-    }
-    displayName()
-}
-init()
+
 
 
 // HOF
