@@ -40,13 +40,12 @@ arr4.forEach((ele)=>{
     console.log(ele*3)
 })
 
-// call
-function test(arg1,arg2){
-    console.log(this.num,arg1,arg2)
+
+// apply
+function test(...args){
+    console.log(this.num,args)
 }
-test.call({num:100},10,20)
-
-
+test.apply({num:100},[1,2,3])
 
 // bind
 function test(arggs){
