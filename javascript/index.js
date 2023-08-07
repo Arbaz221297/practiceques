@@ -39,3 +39,9 @@ let arr4=[1,2,3,4,5,6];
 arr4.forEach((ele)=>{
     console.log(ele*3)
 })
+
+// call
+function test(arg1,arg2){
+    console.log(this.num,arg1,arg2)
+}
+test.call({num:100},10,20)
