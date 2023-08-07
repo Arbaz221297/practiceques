@@ -27,14 +27,14 @@ const sum=arr.reduce((acc,curr)=>{
 console.log(sum)
 
 // filter
-let arr3=[1,2,3,4,5,6];
-const filtarr=arr.filter((ele)=>{
-    return ele<3
-})
-console.log(filtarr)
+
 
 // foreach
 
+let arr4=[1,2,3,4,5,6];
+arr4.forEach((ele)=>{
+    console.log(ele*3)
+})
 
 // call
 function test(arg1,arg2){
